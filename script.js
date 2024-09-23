@@ -152,13 +152,17 @@ document.getElementById('quotaInput').value=''
 donationbtn.addEventListener('click', function(){
 
   document.getElementById('donationSetion').classList.remove('hidden')
+  donationbtn.classList.add('bg-[#B4F461]')
   document.getElementById('historySeciton').classList.add('hidden')
+  historyBtn.classList.remove('bg-[#B4F461]')
 })
 
 historyBtn.addEventListener('click', function(){
 
   document.getElementById('historySeciton').classList.remove('hidden')
+  donationbtn.classList.remove('bg-[#B4F461]')
   document.getElementById('donationSetion').classList.add('hidden')
+  historyBtn.classList.add('bg-[#B4F461]')
 
 })
 
