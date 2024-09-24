@@ -148,7 +148,7 @@ historyBtn.addEventListener("click", function () {
 const blogSwitchBtn = document.getElementById("blogSwitchBtn");
 
 blogSwitchBtn.addEventListener("click", function () {
-  window.location.href = "./blog.html";
+  window.location.href = "../blog.html";
 });
 
 // scrollbar
